@@ -5,8 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /*sjebo sam vrsta1*/
+        a.vrsta1:link{
+            color: black;
+        }
+        a.vrsta1:visited{
+            text-decoration: green wavy underline;
+        }
+        a.vrsta1:active{
+            background-color: yellow;
+            color: black;
+        }
+        a.vrsta2{
+            text-decoration: underline;
+        }
+        a.vrsta2:link{
+            color: #000000;
+        }
+        a.vrsta2:visited{
+            color: red;
+        }
+        a.vrsta2:hover{
+            background-color: purple;
+            color: #ffffff;
+            text-decoration: underline dotted;
+        }
+        a.vrsta2:active{
+            background-color: blue;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    
+    <ul>
+        <li><a class="vrsta1" href="#">Algebra</a></li>
+        <br>
+        <li><a class="vrsta2" href="#" target="_blank">Google</a></li>
+    </ul>
 </body>
 </html>
